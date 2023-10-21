@@ -5,8 +5,7 @@
 
 body {
 	font-family: Helvetica, "Trebuchet MS", sans-serif;
-	background: #fff url(../imagens/bg.png);
-	margin: 15px;
+	background: #fff 
 }
 
 #container {
@@ -54,7 +53,7 @@ body {
 	z-index: 2;
 }
 
-#conteudo-menu {
+#conteudo-menu { position: relative;
 	margin-left: 90px;
 	margin-right: 15px;
 	padding-top: 15px;
